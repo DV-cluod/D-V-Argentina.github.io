@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corporativo XYZ</title>
+    <style>
+        body {
+            font-family: 'Open Sans', Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilos para la cabecera */
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: #003366;
+        }
+
+        /* Estilos para el contenido principal */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .hero {
+            background-image: url('https://via.placeholder.com/1200x400');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        /* Sección de servicios */
+        .servicios {
+            display: flex;
+            justify-content: space-between;
+            margin: 40px 0;
+        }
+
+        .servicio {
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 30%;
+        }
+
+        .servicio img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .servicio h3 {
+            color: #004080;
+            margin-bottom: 10px;
+        }
+
+        /* Botones */
+        .btn {
+            background-color: #004080;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: #003366;
+        }
+
+        /* Pie de página */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Cabecera -->
+    <header>
+        <h1>Corporativo XYZ</h1>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Sección Hero (imagen principal) -->
+    <section class="hero">
+        <div>
+            <h2>Soluciones para tu Empresa</h2>
+            <p>Innovación, tecnología y estrategia para impulsar tu negocio</p>
+        </div>
+    </section>
+
+    <!-- Contenido principal -->
+    <div class="container">
+        <section id="servicios" class="servicios">
+            <div class="servicio">
+                <img src="https://via.placeholder.com/150" alt="Servicio 1">
+                <h3>Consultoría</h3>
+                <!-- Aquí actualizamos el enlace para que lleve a otra página -->
+                <a href="consultoria.html" class="btn">Saber más</a>
+            </div>
+            <div class="servicio">
+                <img src="https://via.placeholder.com/150" alt="Servicio 2">
+                <h3>Desarrollo</h3>
+                <a href="desarrollo.html" class="btn">Saber más</a>
+            </div>
+            <div class="servicio">
+                <img src="https://via.placeholder.com/150" alt="Servicio 3">
+                <h3>Marketing</h3>
+                <a href="marketing.html" class="btn">Saber más</a>
+            </div>
+        </section>
+    </div>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Corporativo XYZ. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
